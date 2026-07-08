@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Inbox mail icon">
+  <defs>
+    <linearGradient id="body" x1="52" y1="62" x2="204" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b88ad"/>
+      <stop offset=".55" stop-color="#274e72"/>
+      <stop offset="1" stop-color="#102b43"/>
+    </linearGradient>
+    <linearGradient id="flap" x1="50" y1="72" x2="206" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b8d6e9"/>
+      <stop offset=".45" stop-color="#7ca8c8"/>
+      <stop offset="1" stop-color="#315d82"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000814" flood-opacity=".42"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="39" y="65" width="178" height="126" rx="16" fill="url(#body)" stroke="#8eb7d4" stroke-width="4"/>
+    <path d="M47 77 L128 142 L209 77" fill="none" stroke="#d5e6f3" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+    <path d="M48 183 L108 130" fill="none" stroke="#8fb8d5" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+    <path d="M208 183 L148 130" fill="none" stroke="#8fb8d5" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+    <path d="M48 78 L128 143 L208 78 L208 190 H48 Z" fill="url(#flap)" opacity=".16"/>
+  </g>
+
+  <circle cx="204" cy="65" r="18" fill="#36a3ea" stroke="#c8edff" stroke-width="4"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Exy Archives Bureau seal watermark">
+  <defs>
+    <style>
+      .line{fill:none;stroke:#9fb2c2;stroke-width:10;opacity:.36}
+      .thin{fill:none;stroke:#9fb2c2;stroke-width:4;opacity:.26}
+      .text{fill:#9fb2c2;opacity:.34;font-family:Georgia,'Times New Roman',serif;font-size:54px;font-weight:700;letter-spacing:7px}
+      .small{fill:#9fb2c2;opacity:.32;font-family:Consolas,'Courier New',monospace;font-size:23px;letter-spacing:7px}
+      .mark{fill:#9fb2c2;opacity:.28}
+    </style>
+    <path id="topArc" d="M155 450 A295 295 0 0 1 745 450"/>
+    <path id="bottomArc" d="M745 450 A295 295 0 0 1 155 450"/>
+  </defs>
+
+  <circle cx="450" cy="450" r="355" class="line"/>
+  <circle cx="450" cy="450" r="330" class="thin"/>
+  <circle cx="450" cy="450" r="245" class="thin"/>
+
+  <text class="text">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">EXY ARCHIVES BUREAU</textPath>
+  </text>
+  <text class="text">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">DEPARTMENT OF EXY RECORDS</textPath>
+  </text>
+
+  <g class="mark">
+    <path d="M450 255 L474 328 L551 328 L489 373 L513 446 L450 401 L387 446 L411 373 L349 328 L426 328 Z"/>
+    <path d="M450 618 C400 585 370 541 370 490 V404 H530 V490 C530 541 500 585 450 618 Z"/>
+    <path d="M391 426 H509 V493 C509 531 488 565 450 591 C412 565 391 531 391 493 Z" fill="none" stroke="#9fb2c2" stroke-width="10"/>
+    <path d="M420 438 V557 M450 438 V580 M480 438 V557" stroke="#9fb2c2" stroke-width="10"/>
+    <path d="M370 438 C304 398 258 351 235 291 C302 306 356 340 401 391 Z"/>
+    <path d="M530 438 C596 398 642 351 665 291 C598 306 544 340 499 391 Z"/>
+    <path d="M366 508 C305 531 257 567 222 619 C284 612 336 589 382 549 Z"/>
+    <path d="M534 508 C595 531 643 567 678 619 C616 612 564 589 518 549 Z"/>
+    <circle cx="300" cy="450" r="18"/>
+    <circle cx="600" cy="450" r="18"/>
+    <circle cx="450" cy="700" r="16"/>
+    <circle cx="285" cy="625" r="14"/>
+    <circle cx="615" cy="625" r="14"/>
+  </g>
+
+  <text x="450" y="705" text-anchor="middle" class="small">ARCHIVE • INDEX • PRESERVE</text>
+</svg>

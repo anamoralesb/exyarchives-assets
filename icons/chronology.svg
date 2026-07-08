@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="CHRONOLOGY folder icon">
+  <defs>
+    <linearGradient id="folderBody" x1="38" y1="42" x2="216" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#365f87"/>
+      <stop offset=".55" stop-color="#1f4a6f"/>
+      <stop offset="1" stop-color="#193a58"/>
+    </linearGradient>
+    <linearGradient id="folderFace" x1="40" y1="87" x2="218" y2="221" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#426f9e"/>
+      <stop offset=".42" stop-color="#365f87"/>
+      <stop offset="1" stop-color="#193a58"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000814" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M29 62 C29 54 35 48 43 48 H91 C99 48 104 51 109 57 L124 74 H213 C222 74 229 81 229 90 V192 C229 205 220 214 207 214 H49 C36 214 27 205 27 192 V70 C27 65 28 63 29 62 Z"
+          fill="url(#folderBody)"/>
+    <path d="M31 83 H225 V195 C225 206 218 211 207 211 H49 C38 211 31 206 31 195 Z"
+          fill="url(#folderFace)"/>
+    <path d="M40 57 H92 C99 57 103 60 108 66 L119 80 H221"
+          fill="none" stroke="#8db6d7" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+    <path d="M42 91 H214" stroke="#9cc5df" stroke-width="3" opacity=".25"/>
+    <path d="M40 202 C82 213 167 215 213 199" stroke="#071827" stroke-width="8" opacity=".18" fill="none"/>
+  </g>
+
+  <g opacity=".95">
+    
+        <rect x="78" y="79" width="100" height="94" rx="10" fill="none" stroke="#7fa8d8" stroke-width="10"/>
+        <path d="M78 106 H178" stroke="#7fa8d8" stroke-width="10"/>
+        <path d="M102 68 V91 M154 68 V91" stroke="#7fa8d8" stroke-width="10" stroke-linecap="round"/>
+        <g fill="#7fa8d8" opacity=".9">
+          <rect x="96" y="122" width="12" height="12" rx="2"/>
+          <rect x="122" y="122" width="12" height="12" rx="2"/>
+          <rect x="148" y="122" width="12" height="12" rx="2"/>
+          <rect x="96" y="146" width="12" height="12" rx="2"/>
+          <rect x="122" y="146" width="12" height="12" rx="2"/>
+        </g>
+        
+  </g>
+
+  <text x="128" y="231" text-anchor="middle"
+        font-family="Consolas, 'Courier New', monospace"
+        font-size="14" letter-spacing="1.5"
+        fill="#b9c9d8" opacity=".75">CHRONOLOGY</text>
+</svg>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exy UI Icons Preview</title>
+<style>
+  body {
+    margin:0;
+    min-height:100vh;
+    background:linear-gradient(135deg,#06192f,#0b2238);
+    color:#d8e4ee;
+    font-family:Segoe UI, Arial, sans-serif;
+    padding:40px;
+  }
+  h1 {
+    font-family:Consolas, "Courier New", monospace;
+    letter-spacing:2px;
+    font-size:18px;
+    font-weight:400;
+    margin:0 0 28px;
+  }
+  .grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:28px;
+  }
+  .tile {
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:12px;
+    padding:24px 12px 16px;
+    text-align:center;
+  }
+  .tile img {
+    width:86px;
+    height:86px;
+    object-fit:contain;
+  }
+  .seal img {
+    width:140px;
+    height:140px;
+  }
+  .tile div {
+    margin-top:14px;
+    font-size:12px;
+    color:#9fb1c2;
+  }
+</style>
+</head>
+<body>
+<h1>EXY ARCHIVES BUREAU / UI ICONS</h1>
+<div class="grid">
+  <div class="tile"><img src="mail-inbox.svg" alt=""><div>mail-inbox.svg</div></div>
+  <div class="tile"><img src="secure-lock.svg" alt=""><div>secure-lock.svg</div></div>
+  <div class="tile"><img src="home-grid.svg" alt=""><div>home-grid.svg</div></div>
+  <div class="tile seal"><img src="bureau-seal-watermark.svg" alt=""><div>bureau-seal-watermark.svg</div></div>
+</div>
+</body>
+</html>
